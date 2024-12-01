@@ -19,7 +19,7 @@ async function gameSetup() {
   });
 
   k.loadSprite("level-1", "./level-1.png");
-
+  //
   const { map: level1Layout, spawnPoints: level1SpawnPoints } = await makeMap(
     k,
     "level-1",
